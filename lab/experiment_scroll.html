@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            body{
+                margin: 0px;
+            }
+            .root{
+                width: 95%;
+                height: 3000px;
+                border: solid 1px #000;
+            }
+            #indicator{
+                position: fixed;
+                top: 10px;
+                left: 10px;
+                width: 300px;
+                background-color: #008000;
+                color: #FFF;
+                padding: 5px;
+
+            }
+            .root > div{
+                width: 100%;
+                height: 1000px;
+            }
+            .aa{
+                background-color: #000080;
+            }
+            .bb{
+                background-color: #008000;
+            }
+            .dd{
+                background-color: #800000;
+            }
+            .cc{
+                background-color: #46b8da;
+            }
+        </style>
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="root">
+            <div class="aa"></div>
+            <div class="bb"></div>
+            <div class="dd"></div>
+            <div class="cc"></div>
+        </div>
+        <div id="indicator"></div>
+        <div class="content">
+            <div class="content-bg"></div>
+            <div class="content-item free-hosting">
+                <img class="content-ico" src="pic/adaptive-350.png" />
+                <h1 class="item-title">
+                    Бесплатный Хостинг
+                </h1>
+                <p class="item-description">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-bg"></div>
+            <div class="content-item layout-print">
+                <img class="content-ico" src="pic/adaptive-350.png" />
+                <h1 class="item-title">
+                    Вёрстка печатной продукции
+                </h1>
+                <p class="item-description">
+                    Corel Draw и InDesign<br />
+                    Разработка сайтов &mdash; виртуальных визиток<br />вашей компании
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
