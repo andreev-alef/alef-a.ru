@@ -8,6 +8,7 @@
         <link href="./css/main.css" rel="stylesheet" />
         <script src="./lib/jquery-2.1.1.min.js"></script>
         <script src="./js/index.js"></script>
+        <link rel="icon" href="./pic/logo-ico.png" />
     </head>
     <body class="body">
         <div class="root">
