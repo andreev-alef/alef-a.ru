@@ -216,6 +216,9 @@ and open the template in the editor.
         -webkit-box-shadow: 0 0 35px 33px rgba(255, 255, 255, 0.2);
         box-shadow: 0 0 35px 13px rgba(255, 255, 255, 0.2);
     }
+    .wrapper-content p{
+        margin-bottom: 20px;
+    }
     .content-header{
         font-family: 'Open Sans';
         text-transform: uppercase;
@@ -234,6 +237,7 @@ and open the template in the editor.
         position: absolute;
         right: 10px;
         top: 10px;
+        font-size: 20px;
         cursor: pointer;
     }
 }

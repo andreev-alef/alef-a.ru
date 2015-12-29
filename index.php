@@ -27,15 +27,9 @@
             <div class="wrapper-navigator">
                 <div class="navigator-item">
                     <div class="navigator-item-title">
-                        <!--<span class="small-letter">от</span>-->
                         ВЁРСТКА<br /><span class="small-letter">и</span><br />ДИЗАЙН
                     </div>
                 </div>
-                <!--                <div class="navigator-item">
-                                    <div class="navigator-item-title">
-                                        <span class="small-letter">до</span> AJAX-<span class="small-letter">приложений</span>
-                                    </div>
-                                </div>-->
             </div>
 
             <div class="wrapper-more">
@@ -49,6 +43,7 @@
                     <span class="glyphicon glyphicon-remove-circle"></span>
                 </div>
                 <h2 class="content-header">Примеры работ</h2>
+                <p><a target="_blank" class="anchor-portfolio" href="http://ipknk-layout.alef-a.ru/">ipknk-layout.alef-a.ru</a> — Доработка меню сайта. Крайние правые пункты меню выезжали за пределы экрана с включением нижней полосы прокрутки.</p>
                 <p><a target="_blank" class="anchor-portfolio" href="http://ajax.alef-a.ru"> http://ajax.alef-a.ru</a> — эксперимент, web-приложение, построенное полностью на асинхронном обмене данными с сервером. Отрисовка интерфейса происходит браузером. Задача сервера — только обработка запросов со стороны клиента. Данный сайт &mdash; испытательная площадка.</p>
                 <p><a target="_blank" class="anchor-portfolio" href="http://js-anim.alef-a.ru">http://js-anim.alef-a.ru</a> — эксперимент с циклической анимацией на JavaScript, вместо Adobe Flash.</p>
                 <p><a target="_blank" class="anchor-portfolio" href="http://profit.alef-a.ru">http://profit.alef-a.ru</a> — коммерческая работа. Сайт визитка строительной компании. Дизайн и вёрстка авторские.</p>
