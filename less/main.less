@@ -7,10 +7,15 @@ and open the template in the editor.
     Created on : 13.01.2016, 15:44:02
     Author     : alef
 */
+
 @import "../lib/bs/css/bootstrap.min.css";
 @import "../lib/bs/css/bootstrap-theme.min.css";
 @import "fonts.css";
 @import "gi.css";
+
+@root_width: 640px;
+@root_height: 640px;
+
 @media screen {
   .body {
     background-color: #000;
@@ -23,8 +28,8 @@ and open the template in the editor.
     background-image: url('../pic/pict3930_high_contrast.jpg');
     background-size: cover;
     background-color: transparent;
-    height: 640px;
-    width: 640px;
+    height: @root_height;
+    width: @root_width;
     top: 50%;
     left: 50%;
     margin-top: -320px;
@@ -216,5 +221,4 @@ and open the template in the editor.
     margin-top: 0px;
   }
 }
-/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
