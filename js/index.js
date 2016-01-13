@@ -89,4 +89,11 @@ $(document).ready(function () {
     $('.btn-hide').click(function () {
         $('.wrapper-content').fadeToggle('slow');
     });
+    $(document).keypress(function (event) {
+        switch (event.keyCode) {
+            case 27:
+                $('.wrapper-content').fadeToggle('slow');
+                break;
+        }
+    });
 });
