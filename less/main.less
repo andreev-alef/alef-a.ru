@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 13.01.2016, 15:44:02
     Author     : alef
 */
@@ -17,208 +17,208 @@ and open the template in the editor.
 @root_height: 640px;
 
 @media screen {
-  .body {
-    background-color: #000;
-    margin: 0px;
-    background-repeat: repeat;
-    background-attachment: fixed;
-  }
-  .root {
-    position: absolute;
-    background-image: url('../pic/pict3930_high_contrast.jpg');
-    background-size: cover;
-    background-color: transparent;
-    height: @root_height;
-    width: @root_width;
-    top: 50%;
-    left: 50%;
-    margin-top: -320px;
-    margin-left: -320px;
-    /*overflow: hidden;*/
-  }
-  /*------------------------------------------------------------------------*/
-  .left-block {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 320px;
-    height: 800px;
-    margin: 0px;
-    padding-top: 5px;
-    background-color: transparent;
-  }
-  .wrapper-more {
-    position: absolute;
-    bottom: 20px;
-    right: 0px;
-    width: 423px;
-    background-color: rgba(65, 49, 26, 0.75);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .more {
-    color: #FEDD7C;
-    font-family: 'Open Sans';
-    font-size: 21px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition-property: color;
-    transition-duration: 1000ms;
-  }
-  .more:hover {
-    color: #FFF;
-  }
-  /*------------------------------------------------------------------------*/
-  .header {
-    position: absolute;
-    width: 160px;
-    height: 640px;
-    top: 0px;
-    left: 47px;
-    background-color: rgba(65, 49, 26, 0.75);
-    color: #FEDD7C;
-    cursor: default;
-  }
-  .alef {
-    position: absolute;
-    text-align: center;
-    text-transform: none;
-    font-family: 'PT Sans';
-    font-weight: lighter;
-    font-size: 40px;
-    letter-spacing: 2px;
-    top: 0px;
-    height: 80px;
-    width: 160px;
-  }
-  .title {
-    position: absolute;
-    -moz-transform: rotateZ(-90deg);
-    -webkit-transform: rotateZ(-90deg);
-    transform: rotateZ(-90deg);
-    text-transform: uppercase;
-    left: -207px;
-    top: 283px;
-    width: 500px;
-    font-size: 47px;
-    font-family: 'Open Sans Light';
-  }
-  .myname {
-    position: absolute;
-    -moz-transform: rotateZ(-90deg);
-    -webkit-transform: rotateZ(-90deg);
-    transform: rotateZ(-90deg);
-    text-transform: uppercase;
-    left: -177px;
-    top: 269px;
-    width: 560px;
-    text-transform: capitalize;
-    font-size: 32px;
-    font-family: 'Open Sans Light';
-    line-height: 1;
-    color: #FEDD7C;
-    letter-spacing: 2px;
-    padding: 10px;
-  }
-  .wrapper-navigator {
-    position: absolute;
-    width: 390px;
-    height: 390px;
-    top: 45px;
-    right: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 8%;
-  }
-  .navigator-item {
-    width: 100%;
-    cursor: default;
-    margin-bottom: 35px;
-  }
-  .navigator-item-title {
-    font-family: 'Open Sans Light';
-    font-size: 67px;
-    text-transform: none;
-    text-align: center;
-    letter-spacing: 2px;
-    line-height: 1.19;
-    padding-left: 0px;
-    color: #fedd7c;
-    cursor: pointer;
-    width: 100%;
-    transition-property: color;
-    transition-duration: 1000ms;
-  }
-  .navigator-item-title:hover {
-    color: #FFF;
-  }
-  .small-letter {
-    font-size: 51px;
-    text-transform: uppercase;
-  }
-  .wrapper-content {
-    display: none;
-    position: absolute;
-    width: 470px;
-    min-height: 600px;
-    top: 10%;
-    left: 50%;
-    margin-left: -235px;
-    background-color: #FFF;
-    font-family: 'PT Serif';
-    font-size: 17px;
-    text-align: left;
-    color: #EEE;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    -webkit-box-shadow: 0 0 35px 33px rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 35px 13px rgba(255, 255, 255, 0.2);
-  }
-  .wrapper-content p {
-    margin-bottom: 20px;
-  }
-  .content-header {
-    font-family: 'Open Sans';
-    text-transform: uppercase;
-  }
-  .anchor-portfolio {
-    font-family: 'Open Sans';
-    color: #AAAAFF;
-  }
-  .anchor-portfolio:hover {
-    color: #AAAAFF;
-  }
-  .wrapper-data {
-    display: none;
-  }
-  .btn-hide {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    font-family: 'Open Sans';
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #FF0000;
-    cursor: pointer;
-  }
+    .body {
+        background-color: #000;
+        margin: 0px;
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+    .root {
+        position: absolute;
+        background-image: url('../pic/pict3930_high_contrast.jpg');
+        background-size: cover;
+        background-color: transparent;
+        height: @root_height;
+        width: @root_width;
+        top: 50%;
+        left: 50%;
+        margin-top: -@root_height/2;
+        margin-left: -@root_width/2;
+
+    }
+    /*------------------------------------------------------------------------*/
+    .left-block {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 320px;
+        height: 800px;
+        margin: 0px;
+        padding-top: 5px;
+        background-color: transparent;
+    }
+    .wrapper-more {
+        position: absolute;
+        bottom: 20px;
+        right: 0px;
+        width: 423px;
+        background-color: rgba(65, 49, 26, 0.75);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .more {
+        color: #FEDD7C;
+        font-family: 'Open Sans';
+        font-size: 21px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition-property: color;
+        transition-duration: 1000ms;
+    }
+    .more:hover {
+        color: #FFF;
+    }
+    /*------------------------------------------------------------------------*/
+    .header {
+        position: absolute;
+        width: 160px;
+        height: 640px;
+        top: 0px;
+        left: 47px;
+        background-color: rgba(65, 49, 26, 0.75);
+        color: #FEDD7C;
+        cursor: default;
+    }
+    .alef {
+        position: absolute;
+        text-align: center;
+        text-transform: none;
+        font-family: 'PT Sans';
+        font-weight: lighter;
+        font-size: 40px;
+        letter-spacing: 2px;
+        top: 0px;
+        height: 80px;
+        width: 160px;
+    }
+    .title {
+        position: absolute;
+        -moz-transform: rotateZ(-90deg);
+        -webkit-transform: rotateZ(-90deg);
+        transform: rotateZ(-90deg);
+        text-transform: uppercase;
+        left: -207px;
+        top: 283px;
+        width: 500px;
+        font-size: 47px;
+        font-family: 'Open Sans Light';
+    }
+    .myname {
+        position: absolute;
+        -moz-transform: rotateZ(-90deg);
+        -webkit-transform: rotateZ(-90deg);
+        transform: rotateZ(-90deg);
+        text-transform: uppercase;
+        left: -177px;
+        top: 269px;
+        width: 560px;
+        text-transform: capitalize;
+        font-size: 32px;
+        font-family: 'Open Sans Light';
+        line-height: 1;
+        color: #FEDD7C;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+    .wrapper-navigator {
+        position: absolute;
+        width: 390px;
+        height: 390px;
+        top: 45px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-top: 8%;
+    }
+    .navigator-item {
+        width: 100%;
+        cursor: default;
+        margin-bottom: 35px;
+    }
+    .navigator-item-title {
+        font-family: 'Open Sans Light';
+        font-size: 67px;
+        text-transform: none;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 1.19;
+        padding-left: 0px;
+        color: #fedd7c;
+        cursor: pointer;
+        width: 100%;
+        transition-property: color;
+        transition-duration: 1000ms;
+    }
+    .navigator-item-title:hover {
+        color: #FFF;
+    }
+    .small-letter {
+        font-size: 51px;
+        text-transform: uppercase;
+    }
+    .wrapper-content {
+        display: none;
+        position: absolute;
+        width: 470px;
+        min-height: 600px;
+        top: 10%;
+        left: 50%;
+        margin-left: -235px;
+        background-color: #FFF;
+        font-family: 'PT Serif';
+        font-size: 17px;
+        text-align: left;
+        color: #EEE;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        -webkit-box-shadow: 0 0 35px 33px rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 35px 13px rgba(255, 255, 255, 0.2);
+    }
+    .wrapper-content p {
+        margin-bottom: 20px;
+    }
+    .content-header {
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+    }
+    .anchor-portfolio {
+        font-family: 'Open Sans';
+        color: #AAAAFF;
+    }
+    .anchor-portfolio:hover {
+        color: #AAAAFF;
+    }
+    .wrapper-data {
+        display: none;
+    }
+    .btn-hide {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #FF0000;
+        cursor: pointer;
+    }
 }
 @media screen and (max-width: 640px) {
-  .root {
-    left: 0px;
-    margin-left: 0px;
-  }
+    .root {
+        left: 0px;
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 479px) {
-  .wrapper-content {
-    width: 320px;
-    margin-left: -160px;
-  }
+    .wrapper-content {
+        width: 320px;
+        margin-left: -160px;
+    }
 }
 @media screen and (max-height: 640px) {
-  .root {
-    top: 0px;
-    margin-top: 0px;
-  }
+    .root {
+        top: 0px;
+        margin-top: 0px;
+    }
 }
 /*# sourceMappingURL=main.css.map */
