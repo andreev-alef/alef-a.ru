@@ -158,8 +158,13 @@ and open the template in the editor.
         line-height: 1.19;
         padding-left: 0px;
         color: rgba(254, 221, 124, 1);
-        width: 100%;
-    }    
+        cursor: pointer;
+        width: 100%;transition-property: color;
+        transition-duration: 1000ms;
+    }
+    .navigator-item-title:hover{
+        color: #FFF;
+    }
     .small-letter{
         font-size: 51px;
         text-transform: uppercase;
@@ -203,7 +208,10 @@ and open the template in the editor.
         position: absolute;
         right: 10px;
         top: 10px;
+        font-family: 'Open Sans';
         font-size: 20px;
+        text-transform: uppercase;
+        color: #FF0000;
         cursor: pointer;
     }
 }

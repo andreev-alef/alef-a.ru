@@ -83,7 +83,7 @@ $(document).ready(function () {
 
 //    var content = $('#about').html();
 
-    $('.more').click(function () {
+    $('.more, .navigator-item').click(function () {
         $('.wrapper-content').fadeIn('slow');
     });
     $('.btn-hide').click(function () {

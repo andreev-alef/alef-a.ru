@@ -33,14 +33,14 @@
             </div>
 
             <div class="wrapper-more">
-                <span class="more">подробнее</span>
+                <span class="more">ПРИМЕРЫ РАБОТ</span>
             </div>
         </div>
 
         <div class="wrapper-content">
             <div class="data" id="about">
                 <div class="btn-hide">
-                    <span class="glyphicon glyphicon-remove-circle"></span>
+                    <span class="glyphicon glyphicon-eye-close"></span> Скрыть
                 </div>
                 <h2 class="content-header">Примеры работ</h2>
                 <p><a target="_blank" class="anchor-portfolio" href="http://ipknk-layout.alef-a.ru/">ipknk-layout.alef-a.ru</a> — Доработка меню сайта. Крайние правые пункты меню выезжали за пределы экрана с включением нижней полосы прокрутки.</p>
