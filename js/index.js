@@ -87,12 +87,12 @@ $(document).ready(function () {
         $('.wrapper-content').fadeIn('slow');
     });
     $('.btn-hide').click(function () {
-        $('.wrapper-content').fadeToggle('slow');
+        $('.wrapper-content').fadeOut('slow');
     });
-    $(document).keypress(function (event) {
+    $(document).keydown(function (event) {
         switch (event.keyCode) {
             case 27:
-                $('.wrapper-content').fadeToggle('slow');
+                $('.wrapper-content').fadeOut('slow');
                 break;
         }
     });
