@@ -83,7 +83,13 @@ $(document).ready(function () {
 
 //    var content = $('#about').html();
 
+
     $('.more, .navigator-item').click(function () {
+        $('.data-container').html($('#portfolio').html());
+        $('.wrapper-content').fadeIn('slow');
+    });
+    $('.contacts, .navigator-item').click(function () {
+        $('.data-container').html($('#contacts').html());
         $('.wrapper-content').fadeIn('slow');
     });
     $('.btn-hide').click(function () {
